@@ -18,8 +18,7 @@ if phep_toan == "+":
       tong_giay = tong_giay1 + tong_giay2
 else:
       tong_giay = tong_giay1 - tong_giay2
-      gio = tong_giay // 3600
+gio = tong_giay // 3600
 phut = (tong_giay % 3600) // 60
 giay = tong_giay % 60
-ket_qua = (gio1, phut1, giay1, gio2, phut2, giay2, phep_toan)
-print("Kết quả:", ket_qua[0], "giờ", ket_qua[1], "phút", ket_qua[2], "giây")
+print("Kết quả:",gio, "giờ",phut, "phút",giay, "giây")
